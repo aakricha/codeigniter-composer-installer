@@ -106,6 +106,7 @@ class Installer
     {
         unlink(__FILE__);
         rmdir('src');
+        rmdir('user_guide');
         unlink('composer.json.dist');
         unlink('dot.htaccess');
         unlink('LICENSE.md');
